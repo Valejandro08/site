@@ -38,11 +38,24 @@ introvert.addEventListener("click", function(){
 
 submit.addEventListener("click", function(){
     let message= document.querySelector(".message");  
-if (input===introvert && input2=== no) {message.innerHTML="you are a Cane Corso";}
+  
+if (input===introvert && input2=== no) {message.innerHTML=
+    `
+    <h3>you are a Cane Corso</h3>
+    <img src="Cane-Corso.jpg">
+    
+    `;}
 
-else if (input=== introvert && input2===yes) {message.innerHTML="you are a Corgi";}
+else if (input=== introvert && input2===yes) {message.innerHTML=
+    `
+    <h3> you are a Corgi</h3>
+    <img src="Corgi.webp">
+    `;}
 
-else if (input===extrovert && input2===no) {message.innerHTML="you are a Pitbull";}
+else if (input===extrovert && input2===no) {message.innerHTML=`
+<h3>you are a Pitbull</h3>
+
+`;}
 
 else if (input===extrovert && input2===yes) {message.innerHTML="you are a Golden Retriever";}
 });
