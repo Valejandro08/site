@@ -52,7 +52,8 @@ else if (input=== introvert && input2===yes) {message.innerHTML=
     <img src="Corgi.webp">
     `;}
 
-else if (input===extrovert && input2===no) {message.innerHTML=`
+else if (input===extrovert && input2===no) {message.innerHTML=
+    `
 <h3>you are a Pitbull</h3>
 <img src="Pitbull.jpg">
 `;}
