@@ -1,19 +1,26 @@
-body {background-color:#90c290ff;}
+body {background-color:#90c290ff;
+}
 
 h1{
     font-family: "Frijole", system-ui;
     font-weight: 400;
     font-style: normal;
   }
-p{font-size: 25px;}
-button {
-  width: 200px;
-  padding: 10px;
+
+  p{font-size: 25px;}
+
+  button {
+  width: 100%;
+  padding: 20px;
+  margin-bottom:10px;
   font-size:20px;
 background-color:#fffcffff ;
 color:#7f534bff;
 border-radius: 12px;}
+
+
 img{width:350px;}
+
 h3{font-family: "Frijole", system-ui;
   font-weight: 400;
   font-style: normal;
