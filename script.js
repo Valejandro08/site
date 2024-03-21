@@ -54,9 +54,12 @@ else if (input=== introvert && input2===yes) {message.innerHTML=
 
 else if (input===extrovert && input2===no) {message.innerHTML=`
 <h3>you are a Pitbull</h3>
-
+<img src="Pitbull.jpg">
 `;}
 
-else if (input===extrovert && input2===yes) {message.innerHTML="you are a Golden Retriever";}
+else if (input===extrovert && input2===yes) {message.innerHTML=
+    `<h3>you are a Golden Retriever</h3>
+    <img src="Golden-Retriever.jpeg">
+    `;}
 });
 
